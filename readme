@@ -1,1 +1,64 @@
-agregar proyecto kotlin en esta carpeta y en el readme indicar como se instala la app para ser deployada en el movil
+# FinanzApp
+
+FinanzApp es una aplicación móvil desarrollada en Kotlin para la plataforma Android. Su objetivo principal es ayudar a los usuarios a gestionar sus finanzas personales de manera eficiente, proporcionando herramientas para el seguimiento de gastos, la creación de presupuestos y la visualización de datos financieros.
+
+## Funcionalidades
+- **Seguimiento de gastos**: Registra y categoriza tus gastos diarios.
+- **Gestión de presupuestos**: Establece límites de gasto y recibe notificaciones cuando te acerques a ellos.
+- **Visualización de datos**: Gráficos interactivos para analizar tus finanzas.
+- **Notificaciones**: Recordatorios y alertas personalizadas.
+
+## Tecnologías Utilizadas
+- **Lenguaje**: Kotlin.
+- **Interfaz de Usuario**: Jetpack Compose para un diseño moderno y dinámico.
+- **Persistencia de Datos**: Room para la gestión de bases de datos locales.
+- **Componentes de Android Jetpack**: Lifecycle, Navigation, y Activity.
+- **Pruebas**: JUnit y Espresso para pruebas unitarias y de interfaz de usuario.
+
+## Estructura del Proyecto
+El proyecto sigue una estructura estándar de aplicaciones Android:
+
+- `app/`: Contiene el código fuente principal, recursos y configuraciones.
+  - `src/main/`: Código fuente de la aplicación.
+  - `libs/`: Librerías externas utilizadas.
+  - `build.gradle`: Configuración de Gradle a nivel de módulo.
+- `gradle/`: Archivos del wrapper de Gradle.
+- `Iconos/`: Iconos SVG utilizados en la aplicación.
+- `Logos/`: Recursos de marca y logotipos.
+
+## Instalación
+Para configurar y ejecutar el proyecto localmente, sigue estos pasos:
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/YoniJaquez/Finanzapp.git
+   ```
+
+2. Abre el proyecto en Android Studio.
+
+3. Sincroniza los archivos de Gradle para descargar las dependencias.
+
+4. Conecta un dispositivo Android o inicia un emulador.
+
+5. Construye y ejecuta la aplicación:
+   - Haz clic en el botón "Run" en Android Studio.
+
+## Despliegue
+Para desplegar la aplicación en un dispositivo móvil:
+
+1. Genera un APK firmado:
+   - Ve a `Build > Generate Signed Bundle / APK` en Android Studio.
+   - Sigue las instrucciones para crear un APK firmado.
+
+2. Instala el APK en tu dispositivo:
+   - Transfiere el archivo APK a tu dispositivo.
+   - Abre el archivo APK para instalar la aplicación.
+
+## Contribuciones
+¡Las contribuciones son bienvenidas! Si tienes ideas para nuevas funcionalidades o mejoras, no dudes en abrir un issue o enviar un pull request.
+
+## Licencia
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+
+## Contacto
+Para cualquier consulta o soporte, por favor contacta al propietario del repositorio en [YoniJaquez](https://github.com/YoniJaquez).
